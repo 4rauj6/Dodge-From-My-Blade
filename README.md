@@ -12,6 +12,9 @@ A new 2D and Soulslike game! Made entirely to run in your Browser!
 Developers:
 
 1 - Alan Kauê - Game Design(CSS)
+
 2 - João Victor - Game Development(JavaScript)
+
 3 - William Davidson  - Game Development(JavaScript)
+
 4 - Frank Hudson - Game Design(Visual prototype)
