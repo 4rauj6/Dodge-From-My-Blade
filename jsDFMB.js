@@ -8,8 +8,10 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
+//ADD FUNCAO DE ESQUERDA E DIREITA (ATAQUES)
 document.addEventListener("keypress", function(event) {
     if(event.code === "A"){
         d
     }
+
 })
