@@ -1,19 +1,47 @@
   *{
-    margin: 0;
+    margin: 75px;
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  .nomeTela h1{
+    align-content: center;
+    margin-left: 38%;
+    margin-top: 15%;
+  }
+
+  .nomeTela h3 {
+    align-content: center;
+    margin-left: 40%;
+    margin-top: -4%;
+  }
+
   .boardJogo {
+    display: none;
     width: 80%;
-    height: 500px;
+    height: 675px;
     border: 1px solid #333;
     margin: 0 auto;
     position: relative;
   }
   
-  .prevChar{
+  .personagem_d {
     position: absolute;
-    bottom: 0;
-    
+    bottom: -75px;
+    width: 200px;
+    left: 450px;
+  }
+
+  .personagem_e {
+    position: absolute;
+    bottom: -75px;
+    width: 200px;
+    left: 450px;
+    transform: scaleX(-1);
+  }
+
+  .space2start {
+    align-content: center;
+    margin-left: 34%;
+    margin-top: 20%;
   }
