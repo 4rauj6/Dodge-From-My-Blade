@@ -16,5 +16,3 @@ Developers:
 2 - João Victor - Game Development(JavaScript)
 
 3 - William Davidson  - Game Development(JavaScript)
-
-4 - Frank Hudson - Game Design(Visual prototype)
