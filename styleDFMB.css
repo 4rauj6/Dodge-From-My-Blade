@@ -1,19 +1,27 @@
-  *{
+  body {
+    background-color: #000000;
+  }
+  
+  * {
     margin: 75px;
     padding: 0;
     box-sizing: border-box;
   }
 
-  .nomeTela h1{
+  .nomeTela h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-content: center;
     margin-left: 38%;
     margin-top: 15%;
+    color: aliceblue;
   }
 
   .nomeTela h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-content: center;
     margin-left: 40%;
     margin-top: -4%;
+    color: aliceblue;
   }
 
   .boardJogo {
@@ -23,25 +31,21 @@
     border: 1px solid #333;
     margin: 0 auto;
     position: relative;
+    background-color: aliceblue;
   }
   
-  .personagem_d {
+  #personagem {
     position: absolute;
     bottom: -75px;
     width: 200px;
-    left: 450px;
-  }
-
-  .personagem_e {
-    position: absolute;
-    bottom: -75px;
-    width: 200px;
-    left: 450px;
-    transform: scaleX(-1);
+    left: 34%;
+    transition: transform 0.1s linear;
   }
 
   .space2start {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-content: center;
     margin-left: 34%;
     margin-top: 20%;
+    color: aliceblue;
   }

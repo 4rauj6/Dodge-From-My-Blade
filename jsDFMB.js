@@ -8,10 +8,16 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
-//ADD FUNCAO DE ESQUERDA E DIREITA (ATAQUES)
-document.addEventListener("keypress", function(event) {
-    if(event.code === "A"){
-        d
-    }
+const personagem = document.getElementById("personagem");
 
-})
+document.addEventListener("keydown", (event) => {
+    if(event.key === "a" || event.key === "A" ){
+        
+        personagem.style.transform = "scaleX(-1)"
+
+    }else if(event.key === "d" || event.key === "D"){
+        
+        personagem.style.transform = "scaleX(1)";
+
+    }
+});
