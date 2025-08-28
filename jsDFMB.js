@@ -8,7 +8,7 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
-const personagem = document.getElementById("personagem");
+const personagemMov = document.getElementById("personagem");
 
 document.addEventListener("keydown", (event) => {
     if(event.key === "a" || event.key === "A" ){
