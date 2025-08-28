@@ -21,3 +21,5 @@ document.addEventListener("keydown", (event) => {
 
     }
 });
+
+const attack = document.getElementById("attackMove");

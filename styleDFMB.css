@@ -36,13 +36,23 @@
     background-color: aliceblue;
   }
   
-  #personagem {
+ 
+  #personagem.attack-on {
     position: absolute;
     bottom: -75px;
-    width: 11%;
-    left: 36.9%;
+    width: 10px;
+    left: 36.5%;
     transition: transform 0.1s linear;
   }
+
+  #attackMove {
+     position: absolute;
+    bottom: -75px;
+    left: 36.5%;
+    width: 10%;
+    display: none;
+    pointer-events: none;
+}
 
   .space2start {
     font-family: "Jersey 25", sans-serif;
